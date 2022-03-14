@@ -51,9 +51,10 @@ body {
 .home-content .home-box-content {
   margin-top: 45px;
   background-color: #455871;
-  position: relative;
-  right: -250px;
+  position: absolute;
   padding: 35px;
+  right: -50px;
+  margin-left: 50px;
   display: inline-block;
 }
 
@@ -90,4 +91,9 @@ body {
   width: 125px;
   height: 120px;
   overflow: hidden;
+  margin: auto;
+}
+
+p {
+  line-height: 26px;
 }
