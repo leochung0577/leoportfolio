@@ -1,0 +1,27 @@
+nav {
+  color: white;
+  background-color: rgb(52, 62, 75);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: auto;
+  word-spacing: 5px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: #888282;
+}
