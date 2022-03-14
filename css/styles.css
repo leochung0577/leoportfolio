@@ -33,7 +33,7 @@ body {
 }
 
 .home-heading h1 {
-  padding-top: 120px;
+  padding-top: 35px;
   font-size: 80px;
   text-transform: uppercase;
   color: #fff;
@@ -48,13 +48,13 @@ body {
   margin: 10vh auto 0 auto;
 }
 
-.home-content .home-box-content {
+.home-content .home-box-content1 {
   margin-top: 45px;
   background-color: #455871;
   position: absolute;
   padding: 35px;
-  right: -50px;
-  margin-left: 50px;
+  right: -100px;
+  margin-left: 100px;
   display: inline-block;
 }
 
@@ -96,4 +96,14 @@ body {
 
 p {
   line-height: 26px;
+}
+
+.home-content .home-box-content2 {
+  margin-top: 325px;
+  background-color: #455871;
+  position: absolute;
+  padding: 35px;
+  left: -100px;
+  margin-right: 100px;
+  display: inline-block;
 }
