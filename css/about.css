@@ -1,0 +1,37 @@
+.home-content {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.home-content .home-box-content1 {
+  margin-top: 45px;
+  background-color: #455871;
+  position: absolute;
+  padding: 35px;
+  margin-right: 200px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.home-content .left-text h4 {
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.home-content .left-text {
+  float: left;
+  width: 60%;
+}
+
+.home-content .left-text p {
+  color: #fff;
+  margin-bottom: 25px;
+}
