@@ -1,5 +1,9 @@
 body {
   background-image: url(../img/background1.png);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 .panel {
@@ -15,6 +19,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .b-blue {
@@ -106,4 +111,52 @@ p {
   left: -100px;
   margin-right: 100px;
   display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-image: none;
+    background-color: #456075;
+    margin-bottom: 0px;
+  }
+  .home-heading h1 {
+    font-size: 50px;
+  }
+  .b-blue {
+    margin-bottom: -2px;
+    background-image: none;
+  }
+
+  .home-content {
+    padding-bottom: 750px;
+  }
+
+  .home-content .home-box-content1 {
+    font-size: 25px;
+    margin-top: 45px;
+    background-color: #455871;
+    right: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+  }
+
+  .home-content .left-text {
+    float: none;
+    width: 100%;
+  }
+
+  .home-content .right-image {
+    display: none;
+  }
+
+  .home-content .home-box-content2 {
+    margin-top: 600px;
+    font-size: 25px;
+    background-color: #455871;
+    left: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+  }
 }
